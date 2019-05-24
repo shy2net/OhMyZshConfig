@@ -12,3 +12,6 @@ It includes the following:
 
 Simply call:
 > ./install.sh
+
+This installation is based on [This Oh-My-Zsh gist](https://gist.github.com/kevin-smets/8568070).
+
