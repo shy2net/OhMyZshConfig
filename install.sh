@@ -9,3 +9,6 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 
 # Copy all of the fonts (system wide usage)
 cp -Rf ./fonts/* /Library/Fonts
+
+# Copy the configurations of .zshrc
+cp -Rf ./config/.zshrc ~/.zshrc
