@@ -10,5 +10,12 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 # Copy all of the fonts (system wide usage)
 cp -Rf ./fonts/* /Library/Fonts
 
+### Plugins installation
+
+# Install zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+### Plugins installation end
+
 # Copy the configurations of .zshrc
 cp -Rf ./config/.zshrc ~/.zshrc
